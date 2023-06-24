@@ -12,7 +12,7 @@ struct ContentView: View {
             HStack(alignment: .bottom, spacing: -10){
                 Rectangle()
                     .fill(
-                        LinearGradient(colors: [.red,.green], startPoint: .topLeading, endPoint: .bottomTrailing)
+                        LinearGradient(colors: [.blue,.orange], startPoint: .topLeading, endPoint: .bottomTrailing)
                         )
                     .frame(width: 20)
                 Text("🇦🇪")
